@@ -83,6 +83,10 @@ AgingTransitionsWorkshop/
 ├── Content/                     ← Presentation outlines and session content
 ├── Templates/                   ← Participant takeaway templates
 ├── Resources/                   ← Lopez Island / San Juan County resource inventory
+├── DeepDiveResearch/            ← Background research on existing support mechanisms (Medicare/
+│                                   Medicaid, HCBS, licensing, guardianship, LTC insurance) — broader
+│                                   than Resources/'s Lopez-specific inventory; informs what the
+│                                   workshop explains about programs that exist beyond the island
 ├── Partners/                    ← Partner organization coordination
 ├── WorkingPapers/               ← Clark's conceptual memos for team use — read these
 ├── ParkedConcepts/              ← Good ideas set aside; possible future use

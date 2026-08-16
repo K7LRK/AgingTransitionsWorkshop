@@ -33,6 +33,30 @@ Each entry follows this format:
 
 ---
 
+## Session 3 — 2026-08-16
+
+**Clark's objective:** Resolve confusion around this project's identity — it's tracked under a GitHub remote named `DecliningWhileAging`, but its own `CLAUDE.md` describes it entirely as the Lopez Island community workshop. Clark had been about to extract the loose root-level personal-research files into a separate "Declining Years" project, but reconsidered: those files are deep-dive research into existing support mechanisms (Medicare/Medicaid, HCBS, licensing, guardianship, LTC insurance) undertaken specifically so the workshop can explain what already exists — they belong organized inside this project, not extracted out of it.
+
+**Clarification dialogue:** Investigated the 12 loose root-level files (LTC_DEFINITIONS.docx, WashingtonStateSupportServices.docx, WA_HCBS_Plan_of_Care_Template.docx, wa_home_care_aide_summary.{docx,md}, wa_home_health_licensing.{docx,md}, Guardianships.docx, "Coordination of LTSS_Comprehensive Outline.pdf", iPhoneEmergencyContactInfo.docx, Reports1-7.docx, AllianzeDefinitions.txt) before assuming they were purely personal — read the two most ambiguous ones (AllianzeDefinitions.txt: definitions from an Allianz LTC insurance contract; Reports1-7.docx: a family friend's research reports on the Medicare/Medicaid/in-home-care landscape) to confirm. Clark's ruling: these apply to him personally in a sense, but their primary function is workshop deep-dive research and they should be organized as such within the existing project, not spawned out. Agreed on a new sibling folder to `Resources/` — `DeepDiveResearch/` — since `Resources/` is scoped narrowly to the Lopez Island/San Juan County inventory per this project's own `CLAUDE.md`, while this material is broader (state/federal programs, personal insurance contracts, off-island research).
+
+Separately, Clark identified the genuine personal thread still worth tracking as its own thing eventually: he and Mary are researching a Revocable Trust — broader than a Durable Medical Power of Attorney, empowering a named person to control finances, pay bills, and make placement decisions (e.g. moving them into assisted living) if they become unable to. Checked the project for any existing Trust-related material — none exists yet (only incidental word-matches in unrelated Workshop docs). This is the actual "Declining Years" remaining-purpose candidate, not yet acted on.
+
+**Tasks delegated:**
+- Martha (direct): created `DeepDiveResearch/`, moved all 12 files there via `git mv` (preserves rename history), updated the Folder Structure diagram in root `CLAUDE.md` to describe the new folder and how it differs from `Resources/`.
+
+**Outputs created:** `DeepDiveResearch/` — new, 12 files moved in; `CLAUDE.md` — Folder Structure diagram updated.
+
+**Open items:**
+- Two orphaned temp files at project root (`FootnotesStripped.md`, `HeadingsFixed.md` — debris from before the export tooling was hardened, not real content) — flagged but not deleted; Clark hasn't confirmed removal.
+- The Homeostasis Framework paper (`WorkingPapers/Homeostasis_Framework_draft1.md` + two `Outbox/` exports) was identified as a strong **Release** candidate — already finished, already circulating in the Lopez community, distinct from the rest of the still-developing workshop (only Phase 1 of 7 complete) — but Clark put this on hold, not cancelled.
+- The Revocable Trust research thread has no files yet — not yet decided whether/when to formally start a project for it (would be a **Launch**, general flavor, once real research material exists — or could begin now as an empty scaffold if Clark wants a home ready before the research starts).
+
+**Session completion assessment:** The identity-confusion question is resolved for the deep-dive research files (they stay, organized). The Homeostasis Release and Trust-research Launch are both real, identified next steps, deliberately not actioned this session.
+
+**Suggested next session:** Whichever Clark wants to pick up: releasing the Homeostasis Framework, or deciding whether/how to start the Revocable Trust research thread.
+
+---
+
 ## Session 2 — 2026-06-15
 
 **Clark's objective:** Develop a conceptual framework document to serve as the organizing spine for the entire workshop.

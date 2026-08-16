@@ -12,7 +12,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash /Users/clarkjohnson/Downloads/TmpPlanning/AgingTransitionsWorkshop/Tools/session_start_hook.sh",
+            "command": "bash /Users/clarkjohnson/Projects/AgingTransitionsWorkshop/Tools/session_start_hook.sh",
             "timeout": 30
           }
         ]

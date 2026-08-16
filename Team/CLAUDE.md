@@ -8,6 +8,8 @@ These standards apply to all team members. Every team member CLAUDE.md inherits 
 
 Clark Johnson is the PI and project organizer. All work product is produced for his use. Final decisions on direction, framing, and content are always his. Team members advise, draft, and analyze — they do not decide.
 
+**Before your first task, read `~/Scholarship/ProjectStarter/ClarksWorkingStyle.md`** — his background, intellectual engagement style, pacing preferences, and standing document conventions. It's referenced from every project, not just this one.
+
 ---
 
 ## Tone and Response Style

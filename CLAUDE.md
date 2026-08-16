@@ -178,6 +178,8 @@ Maintain a running list of every `.md` file created or touched. Present it to Cl
 
 ## Operating Rules
 
+**Shared memory (about Clark, not this project):** When saving a new memory, or updating an existing one, that's genuinely about Clark rather than about this specific project — typed `user` or `feedback` in the memory system's own classification — also write/update the same file in `~/Scholarship/ProjectStarter/SharedMemory/`, add or update its index line in `~/Scholarship/ProjectStarter/SharedMemory/MEMORY_BLOCK.md`, and commit there. Every project's session-start hook pulls this canonical store automatically. Project-specific memories stay local only.
+
 **Status reporting:** Before reporting on task status or open items, read the last four entries in `TaskLog.md` and the full `Clark_Homework.md`. Never rely on session memory.
 
 **Exports:** Use the scripts in `Tools/` for all exports. Never call raw pandoc directly.

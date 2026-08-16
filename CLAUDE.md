@@ -182,7 +182,7 @@ Maintain a running list of every `.md` file created or touched. Present it to Cl
 
 **Exports:** Use the scripts in `Tools/` for all exports. Never call raw pandoc directly.
 
-**File versions:** Before working with any file, verify it is the current version. Check for v2, v3, v4 suffixes or date-stamped copies. Always work on the latest.
+**File versions:** Before working with any file, verify it is the current version. Check for a DateTimeStamp prefix (YYMMDDHHMM_Name.ext, older timestamp = older file) or a _draftN suffix (higher N = newer) — not v2/v3/v4 suffixes, which this project does not use. Always work on the latest.
 
 **Approvals:** When Clark says "ok" or "ok for now" in response to a proposed edit, treat it as approval — apply the change immediately.
 
